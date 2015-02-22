@@ -60,3 +60,4 @@
           mean(fBodyGyro_std_Z),mean(fBodyAccMag_mean),mean(fBodyAccMag_std),          
           mean(fBodyBodyAccJerkMag_mean),mean(fBodyBodyAccJerkMag_std),mean(fBodyBodyGyroMag_mean),    
           mean(fBodyBodyGyroMag_std),mean(fBodyBodyGyroJerkMag_mean),mean(fBodyBodyGyroJerkMag_std))
+  write.table(tidy,file="tidy.txt",row.name=FALSE)
