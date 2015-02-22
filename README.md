@@ -31,3 +31,4 @@ The script executes the following steps in the order listed:
  - The extracted set is then grouped by subject and by activity
  - The grouped data is then summarized to give the average by subject by activity (Step 5 of requirements).
  - Since there are 30 subjects and 6 activities, the final summarized data set contains 180 rows of averages for the 66 extracted values.
+ - The summarized table is written out to a text file.
